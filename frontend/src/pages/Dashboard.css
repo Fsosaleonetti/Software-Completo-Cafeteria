@@ -1,0 +1,27 @@
+.dashboard {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.dashboard header {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.dashboard__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.25rem;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.15);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+.card h3 {
+  margin-top: 0;
+}
